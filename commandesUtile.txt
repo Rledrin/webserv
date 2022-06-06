@@ -1,0 +1,5 @@
+UPLOAD A FILE IN SERVER AND IN CURRENT REPOSITORY : wget --post-file NAMEFILE http://IP:PORT/NAMEFILE
+
+POST A FILE AND CHECKING BODY SIZE VALIDITY : curl -X POST -H "Content-Type: plain/text" --data "BODY test" IP:PORT/NAMEFILE -v
+
+curl --resolve example.com:PORT:IP http://example.com:IP
